@@ -62,13 +62,13 @@ You can always hit `⌘ S` to force save the file so Guard can be alerted quickl
 
 ## Screenshots
 
-* Success notification
+#### Success notification
 
-![Success](https://raw.github.com/vigneshwaranr/SampleAutoGuardTesting/blob/master/screenshots/success.png "Screenshot for test success notification")
+![Success](/screenshots/success.png?raw=true "Screenshot for test success notification")
 
-* Failure notification
+#### Failure notification
 
-![Failure](https://raw.github.com/vigneshwaranr/SampleAutoGuardTesting/blob/master/screenshots/failure.png "Screenshot for test failure notification")
+![Failure](/screenshots/failure.png?raw=true "Screenshot for test failure notification")
 
 
 
