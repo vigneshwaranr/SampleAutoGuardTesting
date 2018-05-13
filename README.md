@@ -8,7 +8,7 @@ whenever there is a change in the source file or its associated test file.
 watch for file changes and run any commands on those files. It has a plethora of [plugins](https://github.com/guard/guard/wiki/Guard-Plugins) too.
 
 There is a plugin called [guard-pytest](https://github.com/kazufusa/guard-pytest) for running python test but there is 
-[no support](https://github.com/kazufusa/guard-pytest/issues/3) for desktop notifications which makes Guard awesome to use. And I don't want this to be tied to one language so I can use this setup for other language projects also with minor changes.
+[no support](https://github.com/kazufusa/guard-pytest/issues/3) for desktop notifications which is what makes Guard autotesting cool. And I don't want this to be tied to one language so I can use this setup for other language projects also with minor changes.
 
 So I am going with a plugin called [guard-yield](https://github.com/guard/guard-yield), which lets you write ruby code in Guardfile itself,
 to autotest python code and raise notifications using [terminal-notifier](https://github.com/julienXX/terminal-notifier) in my Mac.
