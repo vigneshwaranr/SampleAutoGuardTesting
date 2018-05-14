@@ -33,7 +33,7 @@ end
 
 
 run_py_test = proc do |_guard, _command, files|
-    puts "Running tests on " + (files.nil? ? "all files" : files.join)
+    puts "Running tests on " + (files.nil? ? "all files" : files.join(' '))
     result = run_tests(files)
     notify_result(files, result)
 end
